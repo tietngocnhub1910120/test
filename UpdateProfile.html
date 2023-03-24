@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Profile</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/base.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form__container">
+        <p class="form__title mb-10">Profile</p>
+        <div class="form__group form__col mt-5">
+          <label for="fullname" class="form__label text__gray"
+            >Full name:</label
+          >
+          <input
+            type="text"
+            class="form__input text__gray mt-2"
+            name="fullname"
+          />
+          <span class="error"></span>
+        </div>
+        <div class="form__group form__col mt-5">
+          <label for="fullname" class="form__label text__gray"
+            >Day Of Birth:</label
+          >
+          <input
+            type="text"
+            class="form__input text__gray mt-2"
+            name="birthday"
+          />
+          <span class="error"></span>
+        </div>
+        <div class="form__group form__col mt-5">
+          <label for="fullname" class="form__label text__gray">Email:</label>
+          <input type="text" class="form__input text__gray mt-2" name="email" />
+          <span class="error"></span>
+        </div>
+        <div class="form__group form__col mt-5">
+          <label for="fullname" class="form__label text__gray">Phone:</label>
+          <input type="text" class="form__input text__gray mt-2" name="phone" />
+          <span class="error"></span>
+        </div>
+        <div class="form__group flex-end mt-7">
+          <button class="btn btn-primary">Update</button>
+          <button class="btn btn-secondary">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./updateProfile.js"></script>
+    <script>
+      const inputELs = document.querySelectorAll("input");
+      validate(inputELs);
+    </script>
+  </body>
+</html>

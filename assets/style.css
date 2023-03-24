@@ -1,0 +1,152 @@
+.container {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__container {
+  background: #ffffff;
+  padding: 0 24px;
+  padding-top: 64px;
+  border-radius: 10px;
+}
+.form__title {
+  font-weight: 800;
+}
+.text__center {
+  text-align: center;
+}
+.form__group {
+  margin-top: 16px;
+}
+.form__col {
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  margin-top: 2px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 8px 4px;
+}
+.form__label {
+  font-weight: 600;
+}
+.form__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.text__gray {
+  color: #c3c3c3;
+}
+.text__violet {
+  color: #6749e4;
+}
+.btn {
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.btn-lg {
+  padding: 6px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary {
+  background: #6749e4;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.btn-secondary {
+  border: 1px solid #6749e4;
+  background: #ffffff;
+  color: #6749e4;
+  transition: all 0.3s;
+}
+.btn-primary:hover {
+  border: 1px solid #6749e4;
+  background: #ffffff;
+  color: #6749e4;
+}
+.btn-secondary:hover {
+  background: #6749e4;
+  color: #ffffff;
+}
+.show-error {
+  color: rgb(237, 6, 72);
+  font-size: 12px;
+  line-height: 2;
+}
+.disabled {
+  background: rgb(103, 73, 228, 0.6);
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.mt-7 {
+  margin-top: 28px;
+}
+.mt-5 {
+  margin-top: 20px;
+}
+.mt-2 {
+  margin-top: 8px;
+}
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 639px) {
+  .container {
+    height: 100vh;
+  }
+  .form__container {
+    width: 80%;
+    height: 60vh;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    height: 100vh;
+  }
+  .form__container {
+    width: 50%;
+    height: 60vh;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+  .form__container {
+    width: 50%;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    height: 100vh;
+  }
+  .form__container {
+    width: 30%;
+    height: 50vh;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    height: 100vh;
+  }
+  .form__container {
+    width: 25%;
+    height: 60vh;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/base.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form__container">
+        <p class="form__title text__center">Login</p>
+        <div class="form__group form__col">
+          <label class="form__label text__violet" for="email">Email:</label>
+          <input
+            class="form__input"
+            id="email"
+            type="text"
+            placeholder="example@email.com"
+          />
+          <p class="show-error"></p>
+        </div>
+        <div class="form__group form__col">
+          <label class="form__label text__violet" for="password"
+            >Password:</label
+          >
+          <input
+            class="form__input"
+            id="password"
+            type="password"
+            placeholder="************"
+          />
+        </div>
+        <div class="form__group form__row">
+          <div><input type="checkbox" id="checkbox" />Show password</div>
+          <button class="btn-lg btn-primary disabled" disabled>Sign in</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
